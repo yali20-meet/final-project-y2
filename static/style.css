@@ -85,3 +85,14 @@ body {
     top: 10%;
     width: 50%;
 }
+
+.social-media-links {
+    float: right;
+    position: relative;
+    top: 100%;
+}
+
+.social-media-links img {
+    width: 40px;
+    margin: 0 0.2em;
+}
