@@ -2,42 +2,45 @@
 <html>
     
     <head>
-        <link rel="stylesheet" type="text/css" href="{{url_for('static' , filname:'style.css')}}">
         <title>Talenteam</title>
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='style.css') }}">
+        
     </head>
     <body>
-        <div class="navbar">
-            <ul class="nav-ul">
-                <li class="nav-buttons" id="active">Home</li>
-                <li class="nav-buttons">Recomendations</li>
-            </ul>
-        </div>
-        <div class="title">
-            <p>TalenTeam</p>
-        </div>
-        
-        <div class="container">
-
-            <div class="paragraph-container">
-
+        <div class="header-container">
+            <div class="logo-container">
+                <img class="logo" src="{{url_for('static' , filename='talenteam-logo.webp')}}">
             </div>
-
+            <div class="navbar">
+                <ul class="nav-ul">
+                    <li class="nav-buttons" id="active"><a>For Companies</a></li>
+                    <li class="nav-buttons"><a>Recomendations</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="paragraph-container">
+                <div class="paragraph">
+                    <h1>Why Should You Work With Us?</h1>
+                    <hr>
+                    <p></p>
+                </div>
+            </div>
             <div class="video-container">
 
             </div>
-
             <div class="second-paragraph-container">
             
             </div>
-
             <div class="survey">
 
             </div>
-
+            
             <div class="footer">
             
             </div>
-
         </div>
 
     
