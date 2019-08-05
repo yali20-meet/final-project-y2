@@ -8,7 +8,7 @@ def home_route():
 
 @app.route('/recomendation')
 def reco_route():
-	return render_template("recomendation.html")
+	return render_template("recommendations.html")
 
 if __name__ == '__main__':
     app.run(debug=True, port=9000)

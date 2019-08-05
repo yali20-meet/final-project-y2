@@ -1,5 +1,5 @@
 body {
-    margin: 10px;
+    margin: 0;
     background-color: #f2f2f2;
 }
 
@@ -86,13 +86,123 @@ body {
     width: 50%;
 }
 
+.comments {
+    display: table;
+    position: relative;
+    left: 5%;
+    top: 20%;
+}
+
+.comments div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 2%;
+    border-right: 1px solid black;
+}
+.comments div:first-child {
+    border-left: 1px solid black;
+}
+
+.comments div p {
+    padding-top: 10px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+    position: relative;
+    padding-top: 10%;
+    float: top;
+    margin: 0 4%;
+    font-size: 120%;
+}
+
 .social-media-links {
     float: right;
     position: relative;
-    top: 100%;
+    top: 200%;
 }
 
 .social-media-links img {
     width: 40px;
     margin: 0 0.2em;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-third-paragraph-container {
+    font-family: 'Abel', sans-serif;
+    display: inline-block;
+    width: 98%;
+}
+
+.second-paragraph {
+    display: inline-block;
+    float: left;
+    border-left: 1px solid black;
+    height: 50%;
+    margin: 100px 200px;
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px
+        
+}
+
+
+.third-paragraph {
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 50%;
+    margin: 100px 200px;
+    padding: 10px;
+    border-left: 1px solid black;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.footer {
+    height: 50%;
+    width: 100%;
+    background-color: #111;
+    display: inline-block;
+    position: relative;
+}
+
+.survey {
+    text-align: center;
+    color: white;
+    font-family:  'Abel', sans-serif;
+}
+
+form {
+    position: relative;
+    top: 30%;
+}
+
+.survey input[type="textarea"] {
+    height: 40%;
+    width: 30%;
+}
+
+.survey div {
+    position: relative;
+    float: left;
+    left: 32%;
+    top: 30%;
+}
+
+.survey input[type="submit"] {
+    border-radius: 2px;
+    background-color: white;
+    color: #111;
+    border: none;
+    font-family:  'Abel', sans-serif;
+    
+}
+
+.survey input[type="submit"]:hover {
+    color: black;
 }
