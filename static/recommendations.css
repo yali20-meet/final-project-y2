@@ -96,23 +96,42 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-.backgroundpic{
-  width:100%;
+.parallex{
+  background-image: url("https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.p1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.box{
+.recc1{
+ /* border-radius: 10%;*/
+  width: 90%;
+  height: 450px;
+  margin-left: 50px;
+
+  
+ 
   background-color: white;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
 }
+
+.recc1 >p{
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-right: 100px;
+}
+
+  
+
+
+
+
+
+
+
+
+
