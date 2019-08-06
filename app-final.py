@@ -1,10 +1,20 @@
 from flask import Flask, render_template
+from flask import request
+
+from database import *
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/' , methods=["GET" , "POST"])
 def home_route():
-    return render_template("index.html")
+	if request.method == "GET":
+		return render_template("index.html")
+	else:
+		companyName = request.form["companyName"]
+		email = request.form["email"]
+		companyInfo = request.form["companyInfo"]
+		add_company(companyName , email , companyInfo)
+		return render_template("answer.html")
 
 @app.route('/recomendation')
 def reco_route():
