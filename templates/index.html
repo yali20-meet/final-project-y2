@@ -16,13 +16,14 @@
             <div class="navbar">
                 <ul class="nav-ul">
                     <li class="nav-buttons" id="active"><a>For Companies</a></li>
-                    <li class="nav-buttons"><a href="{{url_for('reco_route')}}">Recomendations</a></li>
+                    <li class="nav-buttons"><a href="{{url_for('reco_route')}}">Recommendations</a></li>
                 </ul>
             </div>
             <div class="social-media-links">
-                <img src="{{url_for('static' , filename='facebook.png')}}">
-                <img src="{{url_for('static' , filename='instegram.png')}}">
-                <img src="{{url_for('static' , filename='twitter.png')}}">
+                <a href="https://www.facebook.com/DonaldTrump/"><img src="{{url_for('static' , filename='facebook.png')}}"></a>
+                <a href="https://www.instagram.com/realdonaldtrump/?hl=en"><img src="{{url_for('static' , filename='instegram.png')}}"></a>
+                <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="{{url_for('static' , filename='twitter.png')}}"></a>
+                <a href="https://www.linkedin.com/company/talenteam.co/"><img src="{{url_for('static' , filename='linkedin.png')}}"></a>
             </div>
         </div>
         <div class="container">
@@ -60,12 +61,12 @@
                     <form method="post" action="/">
                         <div class="survey">
                             <div>
-                                <p>Company Name:</p>
+                                <p><strong>Company Name:</strong></p>
                                 <input type="text" name="companyName" placeholder="Company Name">
-                                <p>Company Email:</p>
+                                <p><strong>Company Email:</strong></p>
                                 <input type="email" name="email" placeholder="Email">
                             </div>
-                            <textarea rows="10" cols="50" name="companyInfo">What Does Your Company Do?</textarea>
+                            <textarea rows="10" cols="50" name="companyInfo" placeholder="What Does Your Company Do"></textarea>
                             
                             <input type="submit" value="Post">
                         </div>

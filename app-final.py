@@ -16,7 +16,7 @@ def home_route():
 		add_company(companyName , email , companyInfo)
 		return render_template("answer.html")
 
-@app.route('/recomendation')
+@app.route('/recommendation')
 def reco_route():
 	return render_template("recommendations.html")
 
