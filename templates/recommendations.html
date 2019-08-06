@@ -3,8 +3,9 @@
 <head>
 
     <link rel="stylesheet" type="text/css" href="../static/recommendations.css">
-    <link rel="stylesheet" type="text/css" href="../static/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <title>recommendations</title>
 </head>
 <body>
@@ -20,20 +21,21 @@
                 </ul>
             </div>
             <div class="social-media-links">
-                <img src="{{url_for('static' , filename='facebook.png')}}">
-                <img src="{{url_for('static' , filename='instegram.png')}}">
-                <img src="{{url_for('static' , filename='twitter.png')}}">
+                <a href="https://www.facebook.com/DonaldTrump/"><img src="{{url_for('static' , filename='facebook.png')}}"></a>
+                <a href="https://www.instagram.com/explore/locations/300542983774743/ebola"><img src="{{url_for('static' , filename='instegram.png')}}"></a>
+                <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="{{url_for('static' , filename='twitter.png')}}"></a>
+                <a href="https://www.linkedin.com/company/talenteam.co/"><img src="{{url_for('static' , filename='linkedin.png')}}"></a>
             </div>
         </div>
 
-<div class="parallex"></div>
-    <div class="hat">What others told about us</div>
+<div class="parallex"><p style="margin-top: 0px; color: grey;">TalenTeam</p></div>
+    <div class="hat">What Others Told About Us</div>
 
-    <div style="height:500px;font-size:20px; background-image:url(back.jpeg)" >
+    <div style="height:500px;font-size:24px; background-image:url(back.jpeg)" >
         <div class="recc1">
             <p class="rec"style= " width: 500px;height: 300px;border-right:solid 2px;">"A great place to rapidly progress in your career, not constrained by larger organisations’ red tape - Promotes a very high quality service to clients."</p>
             <p class="rec2"style="width: 500px;height: 300px;border-right:solid 2px;">"Open and passionate culture Small team with big personalities Influence your own path great team spirit focus on quality and delivery Many hats"</p>
-            <p class="rec3"style="width: 500px;height: 300px;border-right:solid 2px;">"This is my first month with TalenTeam. So far this has been a very good professional experience. In this short time, I got the opportunity to learn."</p>
+            <p class="rec3"style="width: 500px;height: 300px;">"This is my first month with TalenTeam. So far this has been a very good professional experience. In this short time, I got the opportunity to learn."</p>
         </div>
 
        
@@ -42,15 +44,11 @@
 
 
 <div>
+    <hr class="hr" style="margin-top: 5px; margin-bottom: 30px;">
+    <div class="moto">TalenTeam To Reach The Dream!</div>
+    <hr>
 
-    <div class="moto">TalenTeam to rich the Dream!</div>
-    <div class="picture-container">
-        <div class="vick1">
-            <img src="hand.jpeg">
-        </div>
-    </div>
-
-    <div class="slideshow-container" style="margin:auto;">
+    <div class="slideshow-container" style="margin-top: 30px;">
 
 
             <div class="slideshow fade">
@@ -92,7 +90,7 @@
 
 
 
-<script type="text/javascript" src="../static/recommendations.js"></script>
+<script type="text/javascript" src="{{url_for('static' , filename='recommendations.js')}}"></script>
     
 
     
