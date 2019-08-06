@@ -64,7 +64,7 @@ body {
 
 .paragraph {
     position: relative;
-    top: 25%;
+    top: 20%;
     margin: auto auto;
     width: 60%;
     height: 60%;
@@ -119,7 +119,8 @@ body {
 .social-media-links {
     float: right;
     position: relative;
-    top: 200%;
+    top: 250%;
+    right:5%;
 }
 
 .social-media-links img {
