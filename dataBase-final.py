@@ -16,3 +16,6 @@ def add_company(companyName , email , companyInfo):
 def get_company(name):
 	company = session.query(Company).filter_by(companyName = name).first()
 	return company
+
+
+print(get_company("google"))

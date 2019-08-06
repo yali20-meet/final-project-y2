@@ -14,3 +14,5 @@ class Company(Base):
 
 	def __repr__(self):
 		return ("Company: {} \nEmail: {} \nCompany Info: {}").format(self.companyName , self.email , self.companyInfo)
+
+
