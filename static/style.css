@@ -76,7 +76,7 @@ body {
 .paragraph h1 {
     padding-top: 20px;
     font-family: 'Abel', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     
 }
@@ -89,8 +89,8 @@ body {
 .comments {
     display: table;
     position: relative;
-    left: 15%;
-    top: 20%;
+    left: 11%;
+    top: 15%;
 }
 
 .comments div {
@@ -113,7 +113,7 @@ body {
     padding-top: 10%;
     float: top;
     margin: 0 4%;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .social-media-links {
