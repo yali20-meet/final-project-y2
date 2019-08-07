@@ -89,7 +89,7 @@ body {
 .comments {
     display: table;
     position: relative;
-    left: 11%;
+    left: 11.5%;
     top: 15%;
 }
 
@@ -229,6 +229,7 @@ form {
 
 .container div button:hover {
     background-color: black;
+    cursor: pointer;
 }
 
 .footer .survey #head {

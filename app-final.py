@@ -21,4 +21,4 @@ def reco_route():
 	return render_template("recommendations.html")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3339)
+    app.run(debug=True, port=3316)
