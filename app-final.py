@@ -20,5 +20,10 @@ def home_route():
 def reco_route():
 	return render_template("recommendations.html")
 
+@app.route('/vick')
+def vick_route():
+    return render_template("vick.html")
+    
+
 if __name__ == '__main__':
-    app.run(debug=True, port=8001)
+    app.run(debug=True, port=8076)

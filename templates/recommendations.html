@@ -29,9 +29,11 @@
             </div>
         </div>
 
-<div class="parallex" ><div style="background-color:white; border-radius:20px; background: rgba(204, 204, 204, 0.5);width: 1500px;margin: auto;"><p style="opacity: 1; margin-bottom:0px; margin-top: 0px; color: rgba(9, 54, 99, 1); ">TalenTeam</p></div></div>
+<div class="parallex" style="  filter:drop-shadow(7px 7px 9px gray);" ><div style="background-color:white; border-radius:20px; background: rgba(204, 204, 204, 0.5);width: 1500px;margin: auto;"><p style="opacity: 1; margin-bottom:0px; margin-top: 0px; color: rgba(
+0, 0, 0
+, 1);">TalenTeam</p></div></div>
     
-    <div class="hat" style="margin-top: 0px;">What Others Told About Us</div>
+    <div class="hat" style="margin-top: 10px;">What Others Told About Us</div>
 
     <div style="height:390px;font-size:24px; background-image:url(back.jpeg)" >
         <div class="recc1">
@@ -72,6 +74,10 @@
                 <div class="nextpicture">4/4</div>
                 <img id="picture4" src="https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width: 100%">
             </div>
+               <div>
+     <a href="/vick">
+                <button style="color: transparent; background-color: transparent; border-color: transparent; cursor: default;" onclick="window.location.href='{{url_for('vick_route')}}">for vick</button></a>
+</div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -84,12 +90,12 @@
                 <span class="dot" onclick="currentSlide(4)"></span>  
             </div>
 
-    </div>
 
+    </div>
+ 
           
 
 </div>
-
 
 
 <script type="text/javascript" src="{{url_for('static' , filename='recommendations.js')}}"></script>
